@@ -13,5 +13,5 @@ class School
         @roster[grade] = [students_name]
     end
 
-  
+
 end
