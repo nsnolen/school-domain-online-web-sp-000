@@ -6,10 +6,12 @@ class School
       @roster = {}
     end
 
-    def grade(grade)
-      @roster[grade]
-
     def add_student(students_name, grade)
-      @roster << grade.to_i[students_name]
+      if @roster[grade]
+        @roster[grade] << students_name
+      else
+        @roster[grade] = [students_name]
     end
+
+  
 end
