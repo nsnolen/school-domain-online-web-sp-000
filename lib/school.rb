@@ -19,7 +19,9 @@ end
 
      def sorted
        sorted_roster = {}
-       @roster.sort.each{|grade, name| sorted_roster[grade] = (name.sort)}
+       @roster.sort.each do |grade, name| 
+         sorted_roster[grade] = (name.sort)
+       end
        sorted_roster
      end
    end
