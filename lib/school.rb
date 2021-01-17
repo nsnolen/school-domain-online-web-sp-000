@@ -20,7 +20,7 @@ end
      def sorted
        sorted_roster = {}
        @roster.sort.each{|grade, name| sorted_roster[grade] = name.sort}
-       sorted roster
+       sorted_roster
      end
    end
 end
