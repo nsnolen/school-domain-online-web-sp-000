@@ -1,6 +1,5 @@
 class School
-
-  roster = []
+  attributes = :roster
   def initialize(name)
     @name = name
 
