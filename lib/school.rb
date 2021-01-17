@@ -20,4 +20,5 @@ end
      def sorted
        sorted_roster = {}
        @roster.sort.each{|grade, name| sorted_roster[grade] = name.sort}
+       sorted roster
 end
