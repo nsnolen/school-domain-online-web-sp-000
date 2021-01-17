@@ -12,6 +12,6 @@ class School
       else
         @roster[grade] = [students_name]
     end
-
+end
 
 end
